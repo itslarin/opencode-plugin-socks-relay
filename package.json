@@ -1,0 +1,22 @@
+{
+  "name": "opencode-plugin-socks-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local OpenCode V2 plugin: loopback HTTP relay that tunnels API requests through a SOCKS5 proxy (e.g. ssh -D).",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "opencode",
+    "plugin",
+    "socks5",
+    "ssh",
+    "relay"
+  ],
+  "license": "MIT"
+}
